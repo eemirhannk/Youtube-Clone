@@ -10,7 +10,7 @@
 <body>
     <div class="header">
         <div class="logo-container">
-            <i class="ri-menu-line"></i>
+            <i id="toggleButton" class="ri-menu-line"></i>
             <div class="logo">
                 <div class="logo-img">
                     <img class="yt-logo" src="./assets/images/logo.png" alt="">
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="body-container">
-        <div class="sidebar">
+        <div id="sidebar" class="sidebar">
             <div class="sidebar-items">
                 <a href="" class="sidebar-item"><i class="ri-home-5-line"></i>Ana Sayfa</a>
                 <a href="" class="sidebar-item"><i class="ri-play-circle-line"></i>Shorts</a>
@@ -63,8 +63,450 @@
                 <a href="" class="sidebar-item"><i class="ri-feedback-fill"></i>Geri bildirim gönder</a>
             </div>
         </div>
-        <div class="content"></div>
+        <div class="content">
+            <div class="content-wrapper">
+                <div class="chips-content-cover">
+
+                    <div class="chips-wrapper">
+                        <div class="right-arrow"><i class="ri-arrow-right-fill"></i></div>
+                        <div class="left-arrow"><i class="ri-arrow-left-fill"></i></div>
+                        <div class="chip">
+                            <p>Tümü</p>
+                        </div>
+                        <div class="chip">
+                            <p>Oyun</p>
+                        </div>
+                        <div class="chip">
+                            <p>Müzik</p>
+                        </div>
+                        <div class="chip">
+                            <p>Haberler</p>
+                        </div>
+                        <div class="chip">
+                            <p>Yemek pişirme programları</p>
+                        </div>
+                        <div class="chip">
+                            <p>Canlı</p>
+                        </div>
+                        <div class="chip">
+                            <p>Basketbol</p>
+                        </div>
+                        <div class="chip">
+                            <p>Futbol</p>
+                        </div>
+                        <div class="chip">
+                            <p>Rap yapma</p>
+                        </div>
+                        <div class="chip">
+                            <p>Aksiyon-macera oyunları</p>
+                        </div>
+                        <div class="chip">
+                            <p>Son yüklenenler</p>
+                        </div>
+                        <div class="chip">
+                            <p>İzlenenler</p>
+                        </div>
+                        <div class="chip">
+                            <p>Yeni öneriler</p>
+                        </div>
+                        <div class="chip">
+                            <p>Scroll olması için eklendi</p>
+                        </div>
+                        <div class="chip">
+                            <p>Scroll olması için eklendi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-container">
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video 1</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="./assets/images/1.png" alt="">
+                            </a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="./assets/images/img2.jpg" alt="">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Demo video</h3>
+                                    <div class="channel-name">Emirhan Koç</div>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                        <div class="upload">1 yıl önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="btn"><i class="ri-time-line"></i>Watch later</div>
+                                <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <hr>
+                <div class="shorts-tag-container">
+                    <i class="ri-play-circle-line"></i><h2 class="shorts">Shorts</h2><hr>
+                </div>
+                <div class="shorts-container">
+                    <div class="shorts-content-cover">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img1.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Onur Aran tarafından kucaklanıyorum.</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntüleme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/oar2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">CZN Burak köpek besliyor.</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/oar2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img1.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover hidden">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover hidden">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover hidden">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover hidden">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover hidden">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts-content-cover hidden">
+                        <div class="shorts-content">
+                            <a href="" class="shorts-box">
+                                <img src="./assets/images/img2.jpg" alt="">
+                            </a>
+                            <div class="shorts-details">
+                                <div class="shorts-detail">
+                                    <h3 class="shorts-title">Demo video</h3>
+                                    <div class="views-upload">
+                                        <div class="views">28b görüntülenme</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div id="showMoreButton" class="shorts-more"><i class="ri-arrow-down-s-line"></i></div>
+                    <div id="hideMoreButton" class="shorts-hide hidden"><i class="ri-arrow-up-s-line"></i></div>
+                    
+                </div>
+            </div>
+            
+        </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/script/script.js"></script>
 </body>
 
 <style>
@@ -89,6 +531,10 @@
         font-size: 1.5rem;
         color: #fff;
     }
+    .hidden {
+    display: none;
+    }
+
     p,a{
         font-size: .9rem;
     }
@@ -100,6 +546,7 @@
         position: fixed;
         top: 0;
         left: 0;
+        z-index: 1000;
         width: 100%;
         background-color: #202020;
         display: flex;
@@ -133,7 +580,12 @@
         display: flex;
         align-items: center;
     }
+    .ri-menu-line{
+        cursor: pointer;
+    }
     .search-container{
+        position: re;
+        top: 0;
         display: flex;
         align-items: center;
         flex: 0 1 685px;
@@ -199,17 +651,34 @@
     }
     .body-container{
         display: flex;
-        position: fixed;
-        height: calc(100vh - 60px);
+        position: relative;
+        height: 100%;
         top: 60px;
+        background-color: #181818;
     }
+        .wrapped{
+            margin-left: 150px!important;
+        }
     .sidebar{
         background-color: #212121;
         padding-top: 10px;
         padding-bottom: 10px;
+        position: fixed;
         width: 240px;
+        height: 100vh;
+        left: 0;
+        z-index: 999;
         overflow-y: scroll;
         color: #fff;
+        transform: translateX(-240px);
+      transition: 0.3s ease-in-out;
+    }
+
+    .open #sidebar {
+      transform: translateX(0);
+    }
+    .open .content {
+      margin-left: 230px;
     }
     .sidebar a{
         text-decoration: none;
@@ -224,7 +693,6 @@
         align-items: center;
         padding: 0 24px;
         cursor: pointer;
-        height: auto;
         height: 50px;
     }
     .sidebar-item:hover{
@@ -236,5 +704,300 @@
     .kesfet{
         margin-bottom: 10px;
     }
+    ::-webkit-scrollbar {
+        width: 7px;
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-track{
+        background: none;
+    }
+    .sidebar:hover::-webkit-scrollbar{
+        background-color: #888;
+    }
+    .content{
+        width: calc(100vw - 240px);
+        margin-left: 120px;
+        background-color: #181818;
+    }
+    .chips-wrapper{
+        position: relative;
+        overflow-x: scroll;
+        background-color: #181818;
+        display: flex;
+        padding-left: 14px;
+    }
+    .right-arrow{
+        position: absolute;
+        right: 5px;
+        top: 12px;
+        background-color: #121212;
+        border-radius: 100%;
+        padding: 4px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .right-arrow:hover{
+        opacity: 1;
+    }
+    .left-arrow{
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        background-color: #121212;
+        border-radius: 100%;
+        padding: 4px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .left-arrow:hover{
+        opacity: 1;
+    }
+    .chips-wrapper::-webkit-scrollbar {
+        height: 0;
+    }
+    .chip{
+        margin: 12px 6px;
+        background-color: #373737;
+        padding: 6px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        white-space: nowrap;
+        cursor: pointer;
+        color: #fff;
+        transition: .5s;
+    }
+    .chip:hover{
+        background-color: #4d4d4d;
+    }
+    .video-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .video-content-cover{
+        transition: .5s;
+        transition-delay: .05s;
+    }
+    .video-content-cover:hover{
+        transform: translateY(10px);
+        z-index: 998;
+    }
+    .video-content{
+        margin-bottom: 25px;
+        transition: .5s;
+    }
+    .video-content:hover{
+        transform: scale(1.1);
+        z-index: 5;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+        background-color: #202020;
+    }
+    .video-box{
+        width: auto;
+        margin: 20px;
+    }
+    .video-box img{
+        width: 360px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .channel-logo img{
+        position: relative;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .video-details{
+        display: flex;
+        color: #fff;
+        padding-top: 12px;
+    }
+    .detail{
+        margin-left: 12px;
+    }
+    .title{
+        font-size: .9rem;
+    }
+    .channel-name{
+        font-size: .8rem;
+        margin-top: 10px;
+        color: #aaa;
+    }
+    .views-upload{
+        display: flex;
+        font-size: .8rem;
+        color: #aaa;
+        margin-bottom: 15px;
+    }
+    .upload{
+        margin-left: 5px;
+    }
+    .hidden-content{
+        display: none;
+        padding: 5px 10px;
+    }
+    .btn{
+        padding: 5px 0;
+        color: #aaa;
+        width: 100%;
+        background-color: #373737;
+        text-align: center;
+        margin: 5px 0;
+        font-size: .6rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .shorts-tag-container{
+        display: flex;
+        color: #fff;
+        margin: 5px;
+        margin-left: 40px;
+    }
+    .shorts{
+        margin-left: 10px;
+        align-items: center;
+    }
+    .shorts-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .shorts-content-cover{
+        transition: .5s;
+        transition-delay: .05s;
+    }
+    .shorts-content-cover:hover{
+        transform: translateY(10px);
+        z-index: 998;
+    }
+    .shorts-content{
+        margin-bottom: 25px;
+        transition: .5s;
+    }
+    .shorts-content:hover{
+        transform: scale(1.05);
+        z-index: 5;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+        background-color: #202020;
+    }
+    .shorts-box{
+        width: auto;
+        margin: 20px;
+    }
+    .shorts-box img{
+        width: 230px;
+        height: 370px;
+        border-radius: 10px;
+    }
+    .shorts-details{
+        display: flex;
+        color: #fff;
+        padding-top: 12px;
+        margin-left: 15px;
+
+    }
+    .details{
+        margin-left: 12px;
+    }
+    .shorts-title{
+        font-size: .9rem;
+    }
+    .shorts-more{
+        background-color: #181818;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 30px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+    }
+    .shorts-more:hover{
+        background-color: #313131;
+        cursor: pointer;
+    }
+    .shorts-hide{
+        background-color: #181818;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 30px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+    }
+    .shorts-hide:hover{
+        background-color: #313131;
+        cursor: pointer;
+    }
+    #hideMoreButton{
+        margin-bottom: 10px;
+    }
+    @media (max-width:1500px) {
+        .video-container{
+            align-items: center;
+            justify-content: center;
+        }
+        .shorts-container{
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    @media (max-width:1200px) {
+        .sidebar{
+        width: 70px;
+        overflow-x: hidden ;
+    }
+    .more{
+        display: none;
+    }
+    .content{
+        width: calc(100vw - 70px);
+        overflow-y: scroll;
+        margin-left: 0;
+    }
+    .kesfet{
+        align-items: center;
+        font-size: .65rem;
+    }
+        .open #sidebar {
+      transform: translateX(0);
+    }
+    .open .content {
+      margin-left: 60px;
+    }
+    }
+    @media (max-width:550px) {
+        .search-container{
+            display: none;
+        }
+        .video-container{
+            align-items: center;
+            justify-content: center;
+        }
+        .video-box img{
+            width: calc(100vw - 130px);
+        }
+        .content{
+        width: calc(100vw - 70px);
+        overflow-y: scroll;
+        margin-left: 20px;
+    }
+
+    }
+    @media (max-width:400px) {
+        .video-details{
+            width: calc(100vw - 120px);
+    }
+    }
+
+
 </style>
 </html>
